@@ -1,0 +1,44 @@
+.container {
+  background-color: #ddd;
+  margin: 0;
+  float: left;
+  padding: 10px;
+}
+
+.subContainer {
+  width: 100%;
+  float: left;
+  margin: 10px;
+}
+
+.subContainerInline {
+  margin-right: 5px;
+}
+
+.generalLabel {
+  color: brown;
+}
+
+.generalTextBox {
+  width: 300px;
+  padding: 15px;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  color: brown;
+}
+
+.generalButton {
+  width: 100px;
+  padding: 10px;
+
+  background-color: #eee;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+
+  font-weight: bold;
+  font-style: italic;
+
+  text-align: center;
+  cursor: pointer;
+  color: brown;
+}
