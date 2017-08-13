@@ -33,7 +33,8 @@ function Custominput(props) {
       className={ props.inputClass }
       name={ props.inputName }
       value={ props.inputValue }
-      placeholder={ props.placeholder } />
+      placeholder={ props.placeholder } 
+      required = { props.required } />
   );
 }
 
@@ -55,12 +56,12 @@ imageId="cartoon" imageClass="cartoon" imageWidth="100" imageHeight="100" imageA
 const labelFirstName = <Customlabel labelFor="fName" labelId="" labelClass="generalLabel" labelText="First Name" />;
 
 const inputFirstName = <Custominput inputType="type" inputId="fName" inputClass="generalTextBox" inputName="fName"
-  inputValue="" placeholder="Mr. / Miss / Mrs." />;
+  inputValue="" placeholder="Mr. / Miss / Mrs." required />;
 
 const labelLastName = <Customlabel labelFor="lName" labelId="" labelClass="generalLabel" labelText="Last Name" />;
 
 const inputLastName = <Custominput inputType="type" inputId="lName" inputClass="generalTextBox" inputName="lName" 
-  inputValue="" placeholder="Surname" />;
+  inputValue="" placeholder="Surname" required />;
 
 const buttonElement = <Custombutton buttonId="" buttonClass="generalButton" buttonValue="GO" buttonText="GO" />;
 
